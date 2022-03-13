@@ -1,2 +1,2 @@
 # Markov Chain Monte Carlo
-Experiments and notes for two techniques:  Gibbs and 
+Gibbs and Metropolis-Hastings are investigated with Python examples.
