@@ -1,4 +1,4 @@
-# Gibbs Sampling
+# Metropolis-Hastings
 Reference:
 * [Will Koehrsen - Towards Data Science] (https://towardsdatascience.com/markov-chain-monte-carlo-in-python-44f7e609be98)
 * code at  https://github.com/WillKoehrsen/ai-projects/blob/master/markov_chain_monte_carlo/markov_chain_monte_carlo.ipynb
