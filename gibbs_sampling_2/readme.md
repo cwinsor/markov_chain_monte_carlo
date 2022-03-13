@@ -1,6 +1,8 @@
 # Gibbs Sampling
 Reference:
 * [Will Koehrsen - Towards Data Science] (https://towardsdatascience.com/markov-chain-monte-carlo-in-python-44f7e609be98)
+* code at  https://github.com/WillKoehrsen/ai-projects/blob/master/markov_chain_monte_carlo/markov_chain_monte_carlo.ipynb
+* .
 * [Eric F. Lock - Slides from PUBH 8442: Bayes Decision Theory and Data Analysis] (http://ericfrazerlock.com/Metropolis-Hastings_Sampling.pdf) 
 
 The topic is Markov Chain Monte Carlo(1) specifically Metropolis-Hastings Sampling
@@ -8,6 +10,10 @@ The topic is Markov Chain Monte Carlo(1) specifically Metropolis-Hastings Sampli
 (1) Regarding the name: Markov Chain Monte Carlo...
 * "Markov" refers to the sampling technique - the current sample is based only on only the immediate prior sample - nothing earlier (markov independence statement).
 * "Monte Carlo refers to a general technique of using repeated random samples to obtain a numerical answer."
+
+**The code uses PyMC3 library** - good reference and more time should be invested here !
+
++===========================
 
 The dataset from Koehrsen is a set of samples of the time at which Will goes to sleep. He has 60 samples. The variables are time (numeric) and sleep-state (nominal having 2 values).
 
